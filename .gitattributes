@@ -1,0 +1,32 @@
+models/*.h5 filter=lfs diff=lfs merge=lfs -text
+
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.swp
+*.swo
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data and Models
+data/
+datasets/
+models/*.h5  # Tracked by Git LFS
+
+# Logs
+logs/
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
